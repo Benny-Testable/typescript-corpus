@@ -1,4 +1,10 @@
-﻿# TypeScript Order Platform -- Monolith (TS_V20_VITE_NPM_MONO)
+# TypeScript Order Platform -- Monolith (TS_V20_VITE_NPM_MONO)
+
+> **Product-only variant (TS_V20_VITE_NPM_MONO_CLEAN).** The same project as `TS_V20_VITE_NPM_MONO` at commit 9264e75d without the
+> `Tool ...` folders (synthetic tool fixtures and copies of other tools' own test data, about 21,000 files in other languages), so
+> language detection and analysis see only `src/` and `tests/`. `package-lock.json` is regenerated with npm 11.19.1 and carries a
+> `resolved` URL and `integrity` hash on every entry (1,010 entries); the original lockfile has them on 99 of 1,009.
+
 
 Tool-evaluation repository for **Node 20**, bundled with **vite**,
 managed with **npm**, in a **Monolith** layout.
